@@ -1,4 +1,4 @@
-string greet(string name, string day) {
-    return $"Hello {name}, today is {day}.";
-}
-greet("Bob", "Tuesday");
+string Greet(string name, string day) =>
+    $"Hello {name}, today is {day}.";
+
+Greet("Bob", "Tuesday");
