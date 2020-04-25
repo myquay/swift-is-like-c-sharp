@@ -1,4 +1,3 @@
-(double, double, double) GasPrices(long id)
-{
-    return (3.59, 3.69, 3.79);
-}
+(double, double, double) GasPrices() =>
+    (3.59, 3.69, 3.79);
+
