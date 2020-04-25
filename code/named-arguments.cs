@@ -1,4 +1,5 @@
-int Area(int width, int height) { return width * height; };
+int Area(int width, int height) => width * height; 
+
 Area(width: 2, height: 3);
 
 // This is also possible with named arguments
