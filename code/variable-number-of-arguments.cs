@@ -1,13 +1,15 @@
-int sumOf(params int[] args){
+int SumOf(params int[] numbers){
     var sum = 0;
-    for (number in numbers) {
+    foreach (int number in numbers) {
         sum += number;
     }
     return sum;
 }
-sumOf(42, 597, 12);
+
+SumOf(42, 597, 12);
 
 //can also be written
-int sumOf(params int[] args)
+int SumOf(params int[] args)
     => args.Sum();
-sumOf(42, 597, 12);
+
+SumOf(42, 597, 12);
