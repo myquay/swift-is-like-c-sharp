@@ -1,6 +1,5 @@
-Func<int, int> makeIncrementer() 
-    => (int number) => { return 1 + number; };
+Func<int, int> makeIncrementer = number => 1 + number; 
 
-var increment = makeIncrementer();
-increment(7);
+makeIncrementer(7);
+
 
